@@ -5,6 +5,8 @@ const port =process.env.PORT  || 5000
 
 app.use(cors())
 
+// 
+
 const coursedata = require('./data/dataDetails.json')
 const category=require('./data/dataDetails.json')
 
